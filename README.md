@@ -29,7 +29,7 @@ You can find the pre-built macOS/OSX binaries (with debug symbols) as well as th
 
 The steps to compile Source SDK 2013 Multiplayer mods apply to this port, and are detailed on [Valve's Developer Community](https://developer.valvesoftware.com/wiki/Source_SDK_2013). Here are the steps applied for the pre-built binaries.
 
-Environment used: [Xcode 6.4](https://developer.apple.com/downloads/more) on OSX 10.11 El Capitan (Apple Developer ID required to download Xcode).
+Environment used: [Xcode 6.4](https://developer.apple.com/downloads/more) on OSX 10.11 El Capitan (Apple Developer ID required to download Xcode). OSX SDK left untouched from the generated Xcode project, that is to say OSX 10.9 Mavericks.
 
 * Install Xcode (5.0.2 or 6.4) and the Command-Line tools for the OSX+Xcode versions you have.
 
@@ -43,7 +43,7 @@ git clone https://github.com/ChampionCynthia/TF2-Base.git
 
 ```
 chmod -R 755 TF2-Base
-cd TF-Base/src
+cd TF2-Base/src
 ./createtfmod
 ```
 
