@@ -56,3 +56,6 @@ config.cfg
 
 # shader files
 *.tmp
+
+# macOS Desktop Services Store
+.DS_Store
